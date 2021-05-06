@@ -1,10 +1,16 @@
 import React from 'react';
-import Home from '../pages/Home';
+import Home from './pages/Home';
 import './App.css';
+import Header from './pages/layout/Header'
 
 function App() {
   return (
-    <Home />
+    <>
+    <Header />
+    <main>
+      <Home />
+    </main>
+    </>
   );
 }
 

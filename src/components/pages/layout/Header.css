@@ -1,0 +1,8 @@
+.navBar{
+    background-color: blueviolet;
+}
+.navBar img{
+    width: 10%;
+    padding: 10px;
+   margin-left: 200px;
+}
